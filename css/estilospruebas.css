@@ -1,0 +1,160 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: Helvetica;
+	letter-spacing: .07em;
+	height:100%;
+	width:100%;
+	display:grid;
+	grid-template-columns:1fr 3fr;
+}
+
+
+/*                      HEADER                    */
+
+
+header{
+	width:100%;
+	max-width:250px;
+	position:fixed;
+	min-height: 100vh;
+}
+
+
+
+
+/*                      LOGO                    */
+
+.logo{
+	width:100%;
+	max-width:250px;
+
+}
+
+
+.logo:hover{
+	opacity: 0.6;
+}
+
+
+
+
+/*                      NAV                    */
+
+nav li{
+	list-style:none;
+	margin-left:25px;
+	}
+
+
+nav a{
+	color:black;
+	text-decoration:none;
+	line-height: 3em;
+	font-size:15px;
+}
+
+
+
+nav a:hover{
+	color:gray;
+	text-decoration:underline;
+}
+
+
+
+/*                      GALERIA (SHOP/NEW IN)                    */
+
+
+.galeria img{
+	max-width:500px;
+
+}
+
+.galeria img:hover{
+	opacity: 0.8;
+}
+
+
+.galeria li{
+	display: inline-block;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+  
+.galeria li p{
+	text-align:center;
+	font-size:11px;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+
+
+/*                      DETALLE (ITEMS)                    */
+
+
+.detalle{
+	display:flex;
+}
+
+.detalle img{
+	margin:50px 0 0 300px;
+	padding:0;
+	width:700px;
+	height:auto;
+	display:inline-block;
+}
+
+.descripcion{
+	float:left;
+	display:inline-block;
+	padding:50px 0 0 0;
+	margin:0;
+}
+
+
+
+
+
+/*                      INDEX                    */
+
+
+.boxboton{
+	background:#cccccc;
+	padding:300px;
+	display: inline-block;
+	color:black;
+	text-decoration:none;
+	max-width: 300px;
+}
+
+.boxboton:hover{
+	background:#002bfe;
+	color:#cccccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
